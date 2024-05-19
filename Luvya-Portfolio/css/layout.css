@@ -370,9 +370,14 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: html5 2s ease;
 }
 .jquery {
-  	width: 50%;
+  	width: 65%;
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
+}
+.excel {
+   width: 55%;
+   -moz-animation: excel 2s ease;
+   -webkit-animation: excel 2s ease;
 }
 
 @-moz-keyframes CPP {
@@ -405,8 +410,12 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes jquery {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 65%;  }
 }
+@-moz-keyframes excel {
+   0%   { width: 0px;  }
+   100% { width: 55%;  }
+ }
 
 @-webkit-keyframes CPP {
   0%   { width: 0px;  }
@@ -438,8 +447,12 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes jquery {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 65%;  }
 }
+@-webkit-keyframes excel {
+   0%   { width: 0px;  }
+   100% { width: 55%;  }
+ }
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
